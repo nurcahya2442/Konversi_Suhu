@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Celcius"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="100dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/celcius"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt1"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="80dp" />
+
+        <Button
+            android:id="@+id/btnKonversi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="150dp"
+            android:background="#32AEEC"
+            android:text="KONVERSI"
+            android:textColor="#fff"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt2"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Kelvin"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="230dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/kelvin"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt2"
+            android:layout_marginLeft="63dp"
+            android:layout_marginTop="200dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt3"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Fahrenheit"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="280dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/farenheit"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt3"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="260dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/txt4"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:text="Reamur"
+            android:textSize="20sp"
+            android:textColor="@android:color/black"
+            android:layout_marginTop="350dp"
+            android:layout_marginLeft="15dp"/>
+
+        <EditText
+            android:id="@+id/reamur"
+            android:layout_width="250dp"
+            android:layout_height="60dp"
+            android:layout_toRightOf="@+id/txt4"
+            android:layout_marginLeft="47dp"
+            android:layout_marginTop="320dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>
